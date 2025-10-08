@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f1ede6;
+    padding-top: 180px;
+}
+
+.header { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #cbad8d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #f1ede6;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: .5s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #4d3f34;
+    ;
+}
+
+.login-container {
+    width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #f1ede6;
+    border: 1px solid #a48374;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #a48374;
+}
+
+h3 {
+    color: #f1ede6;
+    margin-top: 0;
+    background-color: #cbad8d;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+}
+
+label{
+    color: #4d3f34;
+}
+
+
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid#a48374;
+    border-radius: 7px;
+    background-color: transparent;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f1ede6;
+    color: #4d3f34;
+    border: 1px solid #a48374 ;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cbad8d;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.register-link {
+    text-align: right;
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #4d3f34;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
